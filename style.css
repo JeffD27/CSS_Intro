@@ -10,13 +10,6 @@ h1 {
 }
 
 
-*{
- /* background-color: rgb(189, 216, 212);
-  padding-top: 5px;
-  padding-right: 5px;
-*/
-  
-}
 
 .img-fluid {
   width: 100%;
@@ -29,7 +22,7 @@ h1 {
 }
 
 .avatar {
- width: 700px;
+ width: 100%;
  margin-left: auto;
  margin-right: auto;
  margin-top: 32px;
@@ -47,8 +40,13 @@ h1 {
 }
 
 .nav-link {
-  color: orange;
-  text-decoration: none}
+  color: rgb(0, 87, 111);;
+ font-weight: bold;
+  text-decoration: none
+  }
+.nav-link:hover {
+  text-decoration: underline;
+}
 /*
 #resume {
   margin-left: 40px;
@@ -66,20 +64,23 @@ section {
   padding-bottom: 16px;
   padding-right: 16px;
 }
-.make_blue{
-  color:rgba(33, 31, 145, 0.779)
-}
+
 
 main {
-  max-width: 600px;
+  max-width: 1000px;
   margin-top: 24px;
   margin-bottom: 24px;
   margin-left: auto;
   margin-right: auto;
+  padding-left: 60px;
+  padding-right: 60px;
+  background-color: rgb(189, 216, 212);
+  
+
 }
 
 #page-title {
- color: rgba(54, 51, 223, 0.779);
+  color: rgb(0, 87, 111);
   text-align: center;
   font-size: 40px;
   font-weight: 800;
@@ -96,5 +97,5 @@ ul .nav-link{
 
 body {
   background-color: #222222;
-  color: #EEEEEE
+  color: #343434
 }
