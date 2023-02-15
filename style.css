@@ -1,8 +1,4 @@
 
-h1 {
-  
-}
-
 
 .center-form {
   text-align: center;
@@ -76,8 +72,34 @@ main {
   padding-right: 60px;
   background-color: rgb(189, 216, 212);
   
-
+  top: 0px;
 }
+
+
+
+
+#box1, #box2, #box3, #box4, #box5, #box8, #box9, #box10, #box11 {
+  border-bottom: .75rem solid black;
+  
+}
+
+#box3, #box7, #box10, #box11, #box12, #box15 {
+  border-left: .75rem solid black;
+}
+
+.prompt {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  margin: .5rem
+}
+
+
+
+
+
+
+
 
 #page-title {
   color: rgb(0, 87, 111);
@@ -97,5 +119,13 @@ ul .nav-link{
 
 body {
   background-color: #222222;
-  color: #343434
+  color: #343434;
+  margin: 0;
+  width: 100vw;
+  min-height: 100vh;
+
+}
+
+@media only screen and (min-width: 900px) {
+  html{font-size: 20px}
 }

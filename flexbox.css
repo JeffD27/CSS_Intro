@@ -1,0 +1,95 @@
+main {
+    max-width: 1000px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 60px;
+    padding-right: 60px;
+    background-color: rgb(189, 216, 212);
+    
+    top: 0px;
+  }
+
+
+body {
+    background-color: #222222;
+    color: #343434;
+    margin: 0;
+    width: 100vw;
+    min-height: 100vh;
+  
+  }
+
+
+h1 {
+    font-size: 2rem;
+    
+  }
+
+  
+.grid {
+    display: grid;
+    background-color: azure;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4,1fr);
+    width: 50vmin;
+    height: 50vmin;
+    
+  }
+  
+  .grid-items {
+    border: 0.1rem solid gray;
+    font-size: 2rem;
+    background-color: white;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  
+.answer {
+ 
+    font-size: 3rem;
+    text-align: center;
+    height: 50%;
+    width: 50%;
+    
+  }
+  
+  .special {
+    border: none;
+    
+  
+  
+  }
+
+  #box1, #box2, #box3, #box4, #box5, #box8, #box9, #box10, #box11 {
+    border-bottom: .55rem solid black;
+    
+  }
+  
+  #box3, #box7, #box10, #box11, #box12, #box15 {
+    border-left: .55rem solid black;
+  }
+  
+  .prompt {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    margin: .5rem
+  }
+  
+   
+  #page-title {
+    color: rgb(0, 87, 111);
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+  } 
+  
+  
+  @media only screen and (min-width: 900px) {
+    html{font-size: 20px}
+  }
